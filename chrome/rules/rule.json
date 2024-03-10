@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "api.bilibili.com/x/web-interface/wbi/search/default*",
+      "initiatorDomains" : ["bilibili.com", "*.bilibili.com"],
+      "requestMethods": ["get"]
+    }
+  }
+]
