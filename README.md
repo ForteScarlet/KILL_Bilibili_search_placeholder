@@ -12,3 +12,6 @@ Chrome插件，隐藏你B顶部搜索框里那莫名其妙的推荐搜索。
 
 下载源码，使用Chrome开发者模式 **"加载已解压的扩展程序"** 加载 `chrome` 目录。
 
+## License
+
+以 MIT 协议开源。参考 [LICENSE](LICENSE)。
