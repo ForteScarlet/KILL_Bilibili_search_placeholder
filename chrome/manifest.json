@@ -1,24 +1,26 @@
 {
   "manifest_version": 3,
-  "name": "KILL Bilibili search placeholder",
-  "description": "Stop showing me your DAMN default search recommendations!",
-  "version": "1.0.0",
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__",
+  "version": "1.0.1",
   "icons": {
     "16": "icon.png",
     "32": "icon.png",
     "48": "icon.png",
     "128": "icon.png"
   },
-  "declarative_net_request" : {
-    "rule_resources" : [{
-      "id": "bilibili_search_default_ruleset",
-      "enabled": true,
-      "path": "rules/rule.json"
-    }]
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "bilibili_search_default_ruleset",
+        "enabled": true,
+        "path": "rules/rule.json"
+      }
+    ]
   },
-
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestFeedback"
-  ]
+  ],
+  "default_locale": "zh_CN"
 }
