@@ -10,5 +10,17 @@
       "initiatorDomains": ["bilibili.com", "*.bilibili.com"],
       "requestMethods": ["get"]
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "api.bilibili.com/*/x/web-interface/search/default*",
+      "initiatorDomains": ["live.bilibili.com"],
+      "requestMethods": ["get"]
+    }
   }
 ]
